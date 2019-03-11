@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build myfile",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "test.exe",
+                "test.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
